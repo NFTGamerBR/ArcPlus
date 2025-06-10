@@ -84,7 +84,7 @@ const scriptsInEvents = {
 		    // Convert to human readable
 		    const infinityBalance = parseFloat(infinityRaw) / (10 ** infinityDecimals);
 		
-		    runtime.globalVars.walletInfinity = "Saldo Infinity: " + infinityBalance.toFixed(4);
+		    runtime.globalVars.walletInfinity = "Saldo Arc+: " + infinityBalance.toFixed(4);
 		
 		  } catch (err) {
 		    runtime.globalVars.walletAddress = "Erro: " + err.message;
